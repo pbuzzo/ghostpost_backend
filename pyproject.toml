@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "ghostpost_backend"
+version = "0.1.0"
+description = ""
+authors = ["Patrick Buzzo <pbuzzo04@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+django = "^3.0.7"
+djangorestframework = "^3.11.0"
+
+[tool.poetry.dev-dependencies]
+ipdb = "^0.13.2"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
