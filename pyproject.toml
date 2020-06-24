@@ -8,6 +8,7 @@ authors = ["Patrick Buzzo <pbuzzo04@gmail.com>"]
 python = "^3.8"
 django = "^3.0.7"
 djangorestframework = "^3.11.0"
+django-cors-headers = "^3.4.0"
 
 [tool.poetry.dev-dependencies]
 ipdb = "^0.13.2"
