@@ -18,10 +18,5 @@ class Post(models.Model):
         editable=False
     )
 
-    # final_votes to sort by
-    def post_votes(self):
-        final_votes = self.upvotes - self.downvotes
-        return final_votes
-
     def __str__(self):
         return self.title
